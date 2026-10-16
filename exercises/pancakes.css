@@ -1,0 +1,32 @@
+html{background-color: rgb(255, 255, 255);}
+html:hover {background-color: aquamarine;}
+a{color:green}
+A:hover {background-color: aqua;}
+UL{color: red}
+
+h1 {background: rgb(245, 249, 247) ;color: rgb(70, 3, 3);font-weight: normal;}
+.highlight_01 {background-color: rgb(236, 30, 30);}
+.highlight_02 {background-color: black;}
+h2{background: white;
+    color:purple;
+background-color: rgb(156, 183, 194);
+padding: 10px;}
+h2:hover{background-color: blueviolet;}
+#main{background-color: azure;padding: 50xp;margin: 100px;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 100px;}
+IMG{display: block; margin-left: auto; margin-right:auto;}
+#gallery{display: flex}
+#beyonce{width: 70%}
+#aver{color: blue;}
+#chicken{position:absolute;}
+#pan-house{position:relative;height:100vh;left:40%;}
+#chicken img{width: 300px;}
+.playwrite-ca-guides-regular {
+  font-family: "Playwrite CA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#fire{background-repeat: repeat-x;}
