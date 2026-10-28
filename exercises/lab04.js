@@ -2,7 +2,7 @@ let count = 0;
 let buttonCreature = {
     name: "Cheeto",
     species: "Cat",
-    favoriteFood: "canned-food",
+    favoriteFood: "canned food",
     moods: ["angry", "sleepy", "rested", "dramatic", "hungry", "confused"]
 };
 $("#needy-button").click(function () {
@@ -17,7 +17,7 @@ $("#needy-button").click(function () {
 message = message + "<p>My current mood is " + currentMood + ".</p>";
 message = message + "<p>My name is " + buttonCreature.name + ".</p>";
 message = message + "<p>I am a " + buttonCreature.species + ".</p>";
-message = message + "<p>My favorite food is " + buttonCreature.favoriteFood + ".</p>";
+message = message + "<p>My favorite food is " + buttonCreature.favoriteFood + " that my humans feed me.</p>";
     $("#output").html(message);
 
     console.log(count);

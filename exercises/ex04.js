@@ -1,6 +1,6 @@
 let count=0;
 let colorsCount=0; // new line
-let moodCount=0;
+
 // an indexed array of data
 let colors=["green", "orange", "brown", "yellow", "gold", "purple", "red", "pink"];
 let mood= ["fresh and happy", "keep pushing", "so tired"];
@@ -17,10 +17,10 @@ $("#needy-button").click( function(){
 
     console.log(count);
     console.log(colors[colorsCount]); // changed line
-    console.log(mood[moodCount]);
+
     // now let's find our button and set a new text for it
 
-    buttonText="I was kicked " + count + " times and color is " + colors[colorsCount] + " and mood is " + mood[moodCount]; // changed line
+    buttonText="I was kicked " + count + " times and color is " + colors[colorsCount]; // changed line
 
     $("#needy-button").html( buttonText ); 
 
