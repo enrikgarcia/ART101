@@ -1,0 +1,34 @@
+body{background-image: url("https://siliconvalleyandbeyond.com/wp-content/uploads/iStock_54865878_XXLARGE-1500x1000-MEDIUM-1030x687.jpg");}
+h1{
+color: aliceblue;
+}
+p{
+ color: aliceblue;
+}
+img{
+    flex: auto;
+    width: 250px;height: 180px;
+}
+#upper{
+background: rgba(185, 8, 255, 0.263);
+    padding: 20px;
+    border-left: 6px solid #ff040460;
+    flex: 2;
+    border-radius: 20px;
+}
+#main{
+
+    flex: auto;
+    padding-left: 20px;
+    border: 5px black;
+    border-radius: 10px;
+    border-image: 10px black;
+    
+}
+.img{
+    border-radius: 20px;
+}
+#animals{
+    border-radius: 20px;
+    border-top-left-radius: black;
+}
