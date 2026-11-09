@@ -16,7 +16,7 @@ $("#needy-button").click(function () {
     message = message + "<p>My current mood is " + currentMood + ".</p>";
     message = message + "<p>My name is" + buttonCreature.name + ".</p>";
     message = message + "<p>I am an " + buttonCreature.species + ".</p>";
-    message = message + "<p>My favorite food is" + buttonCreature.favoriteFood + ".</p>";
+    message = message + "<p>My favorite food is " + buttonCreature.favoriteFood + ".</p>";
     $("#output").html(message)
     console.log(count);
     console.log(arrayPosition);
