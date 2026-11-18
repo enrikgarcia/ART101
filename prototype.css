@@ -27,6 +27,3 @@ button { padding: 10px 16px; border: 1px solid #888; background: #f7f7f5; font: 
 .mark { position: absolute; width: 20px; height: 20px; border: 1px solid #555; border-radius: 50%; background: #aaa; transform: translate(-50%, -50%); }
 /* Marks do not intercept later pointer events. */
 .mark { pointer-events: none; }
-#clear{
-     
-}

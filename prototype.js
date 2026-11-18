@@ -10,6 +10,3 @@ $("#stage").click(function (event) {
     mark.css("top", y);
     $("#stage").append(mark);
 });
-$("#clear").click(function(event){
-
-});
